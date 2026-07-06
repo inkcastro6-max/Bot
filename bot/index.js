@@ -22,12 +22,10 @@ const client = new Client({
     puppeteer: {
         headless: true,
         args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-gpu'
-        ],
-        // QUITAMOS la línea de executablePath para que use el por defecto
+            '--no-sandbox', 
+            '--disable-setuid-sandbox', 
+            '--disable-dev-shm-usage'
+        ]
     }
 });
 
