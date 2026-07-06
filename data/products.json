@@ -1,0 +1,133 @@
+{
+  "categories": {
+    "android": {
+      "name": "📱 ANDROID",
+      "emoji": "📱",
+      "maintenance": false,
+      "maintenance_message": "Esta categoría está en mantenimiento. Vuelve pronto. 🔧",
+      "products": [
+        { "id": "drip_client", "name": "DRIP CLIENT", "available": true, "maintenance": false },
+        { "id": "drip_client_proxy", "name": "DRIP CLIENT PROXY", "available": true, "maintenance": false },
+        { "id": "drip_8ball", "name": "DRIP 8 BALL POOL AUTO", "available": true, "maintenance": false },
+        { "id": "cuban_mods", "name": "CUBAN MODS", "available": true, "maintenance": false },
+        { "id": "cuban_proxy", "name": "CUBAN PROXY", "available": true, "maintenance": false },
+        { "id": "hg_cheats", "name": "HG CHEATS", "available": true, "maintenance": false },
+        { "id": "hg_cheats_proxy", "name": "HG CHEATS PROXY", "available": true, "maintenance": false },
+        { "id": "prime_hook", "name": "PRIME HOOK", "available": true, "maintenance": false },
+        { "id": "pato_azul", "name": "PATO TEAM AZUL", "available": true, "maintenance": false },
+        { "id": "pato_verde", "name": "PATO TEAM VERDE", "available": true, "maintenance": false },
+        { "id": "pato_naranja", "name": "PATO TEAM NARANJA", "available": true, "maintenance": false },
+        { "id": "pato_amarillo", "name": "PATO TEAM AMARILLO", "available": true, "maintenance": false },
+        { "id": "8ball_auto", "name": "8 BALL POOL AUTO PLAY", "available": true, "maintenance": false },
+        { "id": "blood_strike", "name": "Blood Strike Mods Premium", "available": true, "maintenance": false }
+      ],
+      "prices": {
+        "venezuela": [
+          { "id": "1d", "label": "1 día", "price": 3, "currency": "USD", "available": true },
+          { "id": "7d", "label": "7 días", "price": 10, "currency": "USD", "available": true },
+          { "id": "15d", "label": "15 días", "price": 13, "currency": "USD", "available": true },
+          { "id": "30d", "label": "1 mes", "price": 15, "currency": "USD", "available": true }
+        ],
+        "internacional": [
+          { "id": "7d", "label": "7 días", "price": 13, "currency": "USD", "available": true },
+          { "id": "15d", "label": "15 días", "price": 15, "currency": "USD", "available": true },
+          { "id": "30d", "label": "30 días", "price": 20, "currency": "USD", "available": true }
+        ]
+      }
+    },
+    "iphone": {
+      "name": "🍎 IPHONE",
+      "emoji": "🍎",
+      "maintenance": false,
+      "maintenance_message": "Esta categoría está en mantenimiento. Vuelve pronto. 🔧",
+      "products": [
+        { "id": "fluorite", "name": "FLUORITE", "available": true, "maintenance": false },
+        { "id": "monite_basico", "name": "MONITE BÁSICO", "available": true, "maintenance": false },
+        { "id": "monite_pro", "name": "MONITE PRO", "available": true, "maintenance": false },
+        { "id": "proxy_cuban", "name": "PROXY DE CUBAN MODS", "available": true, "maintenance": false },
+        { "id": "fluorite_8ball", "name": "FLUORITE 8 BALL POOL IOS", "available": true, "maintenance": false }
+      ],
+      "prices": {
+        "venezuela": [],
+        "internacional": []
+      }
+    },
+    "cuentas": {
+      "name": "⭐ Cuentas Principales",
+      "emoji": "⭐",
+      "maintenance": false,
+      "maintenance_message": "Esta categoría está en mantenimiento. Vuelve pronto. 🔧",
+      "subcategories": {
+        "root": {
+          "name": "Root",
+          "products": [
+            { "id": "hex_blade", "name": "HEX BLADE", "available": true, "maintenance": false },
+            { "id": "kley_vip", "name": "KLEY VIP", "available": true, "maintenance": false }
+          ]
+        }
+      },
+      "prices": {
+        "venezuela": [],
+        "internacional": []
+      }
+    }
+  },
+  "payment_methods": {
+    "venezuela": {
+      "label": "🇻🇪 Venezuela",
+      "method": "Mercantil",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Venezuela – Mercantil\n\n👤 Titular / Beneficiario:\nJesús Montiel\n\n🪪 Cédula de identidad:\nV-35140761\n\n🏦 Banco:\nMercantil\n\n💳 Cuenta:\n04144007442\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Banco Mercantil.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "colombia": {
+      "label": "🇨🇴 Colombia",
+      "method": "Nequi",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Colombia – Nequi\n\n👤 Titular / Beneficiario:\nBAIRO SAMIR EPALZA ZAPATA\n\n📱 Número Nequi:\n3102463706\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Nequi (Colombia).\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "peru": {
+      "label": "🇵🇪 Perú",
+      "method": "Yape",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Perú – YAPE\n\n👤 Beneficiario:\nJuan Bardales\n\n📱 Número:\n958765606\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Yape.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "ecuador": {
+      "label": "🇪🇨 Ecuador",
+      "method": "Banco Pichincha",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Ecuador – Banco Pichincha\n\n👤 Titular / Beneficiario:\nViviana Saldarriaga\n\n🪪 Cédula:\n1312105230\n\n🏦 Banco:\nBanco Pichincha\n\n💳 Cuenta de Ahorros:\n2214863115\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Banco Pichincha.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "brasil": {
+      "label": "🇧🇷 Brasil",
+      "method": "Takenos",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Brasil – Takenos\n\n👤 Beneficiario:\nRoyers Gustavo Valencia Ramos\n\n📱 Número:\n+591 69862119\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Takenos.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "bolivia": {
+      "label": "🇧🇴 Bolivia",
+      "method": "Yape / Al Toke",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Bolivia (Yape)\n\n📧 Correo:\nroyersgustavo2020@gmail.com\n\n📱 Número:\n+591 69862119\n\n👤 Titular:\nRoyers Gustavo Valencia Ramos\n\n✅ Puedes realizar tu pago mediante el correo o el número indicado.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Después de confirmar el pago, recibirás tu producto de forma segura y rápida.\n\n──────────────────\n\n💳 Método de Pago para Bolivia – Al Toke\n\n👤 Beneficiario:\nRoyers Gustavo Valencia Ramos\n\n📱 Número:\n+591 69862119\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Al Toke.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida y segura."
+    },
+    "paraguay": {
+      "label": "🇵🇾 Paraguay",
+      "method": "Tigo Money",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago para Paraguay – Tigo Money\n\n👤 Beneficiario:\nRoyers Gustavo Valencia Ramos\n\n📱 Cuenta Tigo Money:\n+591 69862119\n\n✅ Realiza tu pago de forma rápida y segura mediante Tigo Money.\n\n📩 Una vez efectuado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar el pago, recibirás tu producto de manera rápida, segura y confiable."
+    },
+    "dominicana": {
+      "label": "🇩🇴 Rep. Dominicana",
+      "method": "Banco BHD",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago Internacional – Transferencia Interbancaria (República Dominicana)\n\n👤 Titular / Beneficiario:\nYAMILEX RODRIGUEZ\n\n🪪 Documento de identidad:\n40219091481\n\n🏦 Banco:\nBanco BHD\n\n💳 Cuenta de ahorros (RD$):\n39910810011\n\n📧 Correo electrónico:\nYAMILEXADAMES54@GMAIL.COM\n\n🌍 Método de pago:\nTransferencia Interbancaria – República Dominicana\n\n✅ Realiza tu transferencia de forma segura mediante bancos de República Dominicana.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar la transacción, recibirás tu producto de manera rápida y segura."
+    },
+    "internacional_zelle": {
+      "label": "🌍 Internacional – Zelle",
+      "method": "Zelle",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago Internacional – Zelle\n\n📧 Correo Zelle:\nputthatwork@gmail.com\n\n📱 Número asociado:\n5165851958\n\n🌍 Disponible para pagos internacionales\n\n✅ Realiza tu pago de forma rápida, segura y confiable mediante Zelle.\n\n📩 Una vez realizado el pago, envía tu comprobante para su verificación.\n\n⏳ Tras confirmar la transacción, recibirás tu producto de manera rápida y segura.\n\n🚀 Método disponible para clientes internacionales."
+    },
+    "internacional_wu": {
+      "label": "🌍 Internacional – Western Union",
+      "method": "Western Union",
+      "details": "🌟 KLEY OFICIAL VIP 🌟\nLo mejor del momento 🚀\n\n💳 Método de Pago – Western Union (Transferencia Internacional)\n\n👤 Titular / Beneficiario:\nMoisés Alejandro González Ruiz\n\n🪪 Documento de identidad:\n0967947243\n\n📧 Correo:\nmoicod444@gmail.com\n\n🌍 Método de pago:\nWestern Union\n\n✅ Realiza tu envío de dinero de forma rápida, segura e internacional mediante Western Union.\n\n📩 Una vez realizado el pago, envía el comprobante o código de transferencia para su verificación.\n\n⏳ Tras confirmar la transacción, recibirás tu producto de manera rápida y segura."
+    }
+  },
+  "settings": {
+    "admin_password": "kley2024admin",
+    "owner_number": "TUNUM",
+    "bot_name": "KLEY OFICIAL VIP",
+    "welcome_message": "¡Hola! 👋 Bienvenido a *KLEY OFICIAL VIP* 🌟\nLo mejor del momento 🚀\n\n¿Cómo te llamas? 😊"
+  }
+}
