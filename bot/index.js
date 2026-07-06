@@ -2,27 +2,31 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const fs = require('fs');
 const path = require('path');
 
+// Iniciamos el cliente sin rutas raras
 const client = new Client({
     authStrategy: new LocalAuth({ dataPath: path.join(__dirname, '../.wwebjs_auth') }),
     puppeteer: {
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-        // Esto le dice al bot que use la ruta que pusimos en las variables de Railway
-        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
     }
 });
 
-
+// SOLO VINCULACIÓN POR NÚMERO
 client.on('qr', async () => {
     try {
+        // Genera los 8 números para tu WhatsApp 3206734323
         const pairingCode = await client.requestPairingCode('573206734323'); 
         console.log('\n********************************************');
-        console.log('👉 TU CÓDIGO DE VINCULACIÓN ES:', pairingCode);
+        console.log('👉 TU CÓDIGO DE 8 NÚMEROS ES:', pairingCode);
         console.log('********************************************\n');
-    } catch (err) { console.error('Error:', err); }
+    } catch (err) {
+        console.error('Error:', err);
+    }
 });
 
-client.on('ready', () => { console.log('✅ BOT KLEY OFICIAL CONECTADO'); });
+client.on('ready', () => {
+    console.log('✅ BOT CONECTADO EXITOSAMENTE');
+});
 
 // --- FLUJO DE CLIENTES ---
 const sessions = {};
