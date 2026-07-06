@@ -30,7 +30,7 @@ const client = new Client({
             '--single-process',
             '--disable-gpu'
         ],
-        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable' || '/usr/bin/chromium'
     }
 });
 
