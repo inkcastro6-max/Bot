@@ -34,11 +34,17 @@ function resetSession(from) {
 const client = new Client({
   authStrategy: new LocalAuth({ dataPath: path.join(__dirname, '../.wwebjs_auth') }),
   puppeteer: {
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-    // Borramos la línea de executablePath para que Railway lo encuentre solo
-    headless: true
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--single-process'
+    ],
+    executablePath: 'google-chrome-stable'
   }
 });
+
 
 client.on('qr', (qr) => {
   console.log('\n📱 Escanea este QR con WhatsApp:\n');
