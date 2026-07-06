@@ -15,17 +15,24 @@ function getSession(from) {
     return sessions[from];
 }
 function resetSession(from) { sessions[from] = { step: 'welcome', data: {} }; }
-
 const client = new Client({
     authStrategy: new LocalAuth({ dataPath: path.join(__dirname, '../.wwebjs_auth') }),
     puppeteer: {
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process',
+            '--disable-gpu'
+        ],
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
     }
 });
-
-client.on('qr', async () => {
-    try {
+const client = new 
         const pairingCode = await client.requestPairingCode('573206734323'); 
         console.log('\n********************************************');
         console.log('ð TU CÃDIGO DE VINCULACIÃN ES:', pairingCode);
