@@ -34,7 +34,8 @@ function resetSession(from) {
 const client = new Client({
   authStrategy: new LocalAuth({ dataPath: path.join(__dirname, '../.wwebjs_auth') }),
   puppeteer: {
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    // Borramos la línea de executablePath para que Railway lo encuentre solo
     headless: true
   }
 });
